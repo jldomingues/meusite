@@ -100,8 +100,9 @@
     começando em 40% e decaindo em outras faixas de preço,<br>
      outra funcionalidade legal, é poder salvar ou imprimir
     seus calculos.</p>
-    <div class="img"> 
-    <img src="imgs/print.png" width="30%"> </div><br>
+    <div id="img" onclick="img()"> 
+    <img src="imgs/print.png" width="40%"></div>
+    <div id="local"></div><br>
     <h1><a href="https://jldomingues.github.io/Meu_Lucro/">Acessar Aplicação</a></h1>
     
        <p><i>"Trabalhar nessa área é minha grande meta, sou ❤️ apaixonado por tecnologia, e o poder
@@ -110,7 +111,15 @@
 </div>
 
     </div>
-    
+    <script>
+      function img(){
+        document.getElementById('img').style.display="none"
+        var plocal=document.getElementById('local')
+        plocal.innerHTML=(`<img src="imgs/print.png"><br>
+      <div onclick="history.go(0)">  Minimizar</div>`)
+      }
+      
+    </script>
 </body>
 <hr>
 <footer>Desenvolvido em 2022 por JLDomingues</footer>
