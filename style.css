@@ -23,19 +23,22 @@ body{
   font-size:35px!important;
   position:fixed;
   top: -10px;
-  r:-6px;
+
   
 }
    a:link {
- color: yellow;
+ color: #f7cf14 ;
 }
-   a:hover {
- color: yellow;
-
-} 
    a:visited{
-     color:white;
+    color: #f7cf14 ;
+
+
    }
+   a:hover {
+    color: lightblue;
+   
+   } 
+   
     div.img{
      text-align: center;
     margin:10px;
@@ -65,7 +68,7 @@ body{
   border-style: dashed;
   border-color: #f7cf14;
   margin-top: -20px;
-#42445A
+
   }     
 
     div.yellow{
