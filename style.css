@@ -1,4 +1,6 @@
 body{
+  
+
        text-align: center;
        background-color: #1a1a1a;
        background-image: url('imgs/download.png');
@@ -16,7 +18,7 @@ body{
   background-color: #363636;
   
   margin-top: 10px;
-  width: 100%;
+  width: 105%;
   margin-left: -20px;
   font-size:35px!important;
   position:fixed;
@@ -63,7 +65,7 @@ body{
   border-style: dashed;
   border-color: #f7cf14;
   margin-top: -20px;
-
+#42445A
   }     
 
     div.yellow{
