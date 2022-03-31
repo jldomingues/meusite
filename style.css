@@ -10,16 +10,36 @@ body{
         height:80px;
 
 }
+#curriculum{
+ 
+  border:solid 2px;
+  background-color: #363636;
+  
+  margin-top: 10px;
+  width: 110%;
+  margin-left: -20px;
+  font-size:35px!important;
+  position:fixed;
+  top: -10px;
+  r:-6px;
+  
+}
    a:link {
  color: yellow;
 }
-    
-      
+   a:hover {
+ color: yellow;
+
+} 
+   a:visited{
+     color:white;
+   }
     div.img{
      text-align: center;
-    margin:-20px;
+    margin:10px;
         
     }
+    
     h1{
         font-size: 40px;
         margin: 20px;
@@ -84,4 +104,5 @@ body{
       margin-left: -10px;
       width:105%;
       margin-bottom: -20px;
+      
     }
