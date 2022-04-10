@@ -10,3 +10,9 @@ function img2(){
         plocal2.innerHTML=(`<img src="imgs/print2.png"><br>
       <div onclick="history.go(0)">  Minimizar</div>`)
       }
+function img3(){
+        document.getElementById('img3').style.display="none"
+        var plocal3=document.getElementById('local3')
+        plocal3.innerHTML=(`<img src="imgs/print3.png"><br>
+      <div onclick="history.go(0)">  Minimizar</div>`)
+      }
