@@ -11,20 +11,20 @@ body{
          margin-top:-10px;
          background-position: top center;
         height:80px;
+        width:;
 
 }
 #curriculum{
  
   border:solid 2px;
   background-color: #363636;
-  
+  color:#363636;
   margin-top: 10px;
-  width: 105%;
-  margin-left: -20px;
+  width: 100%;
   font-size:35px!important;
   position:fixed;
   top: -10px;
-  r:-6px;
+  right:-6px;
   
 }
    a:link {
@@ -117,9 +117,9 @@ h2{
       text-align: center;
       background-color: #f7cf14;
       height:250%;
+      margin-left: -3px;
       color:black;
-      margin-left: -10px;
-      width:105%;
+      width:102%;
       margin-bottom: -20px;
       
     }
